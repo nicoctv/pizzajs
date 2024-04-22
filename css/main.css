@@ -144,7 +144,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .no-hay-productos {
-    color: black;
-    font-weight: bold;
-    margin-top: 2rem;
+    color: rgb(26, 143, 52);
 }

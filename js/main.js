@@ -5,19 +5,19 @@ const productos = [
         id: "combo-01",
         titulo: "COMBO 5 Mozzarella",
         precio: 14000,
-        img: "",
+        img: "./img/pizzamuzza.webp",
     },
     {
         id: "combo-02",
         titulo: "COMBO 5 Especiales",
         precio: 18500,
-        img: "./img/Combo2.webp",
+        img: "./img/provolone.webp",
     },
     {
         id: "combo-03",
         titulo: "COMBO 5 y 5",
         precio: 25000,
-        img: "./img/Combo3.webp",
+        img: "./img/pizzamuzza.webp",
     }
 ];
 
@@ -47,7 +47,6 @@ productos.forEach((producto) => {
     div.append(btn);
 
     let div2 = document.createElement("div");
-    div2.innerText = "3 y 6 cuotas sin interes!!";
     div.append(div2);
 
     contenedorProductos.append(div);
