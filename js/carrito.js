@@ -2,6 +2,7 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const carritoContenedor = document.querySelector("#carrito-pagina");
 
+
 if (carrito.length === 0) {
     carritoContenedor.innerHTML = "<p class='no-hay-productos'>No hay productos seleccionados</p>";
 } else {
