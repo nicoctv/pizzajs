@@ -11,7 +11,7 @@ const productos = [
         id: "combo-02",
         titulo: "COMBO 5 Especiales",
         precio: 18500,
-         img: "./img/provolone.webp",
+        img: "./img/provolone.webp",
     },
     {
         id: "combo-03",
