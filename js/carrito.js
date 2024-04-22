@@ -12,6 +12,6 @@ if (carrito.length === 0) {
             Título: ${producto.titulo}
             Precio: ${producto.precio}
         `;
-        carritoContenedor.append(div);
+         carritoContenedor.append(div);
     })
 }
